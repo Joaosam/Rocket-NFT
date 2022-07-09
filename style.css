@@ -520,12 +520,12 @@ footer .pulse:after {
   padding-left: 2rem;
   width: 26rem;
   border: none;
+  color: var(--text-color);
+  font-size: 2rem;
 }
 
 .formsNft .input input[type=email]:focus {
-  color: var(--text-color);
   opacity: 0.9;
-  font-size: 2rem;
 }
 
 .formsNft .input input::placeholder {
@@ -539,11 +539,13 @@ footer .pulse:after {
   cursor: pointer;
   border: none;
   transition: .5s;
+  cursor: not-allowed;
 }
 
-.formsNft .input button:hover {
+.formsNft .input button#buttonInput.hover:hover {
   background-color: var(--color-logo);
   color: var(--text-color);
+  cursor: pointer;
 }
 
 .input button strong {
