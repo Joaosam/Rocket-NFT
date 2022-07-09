@@ -627,6 +627,18 @@ footer .pulse:after {
   position: absolute;
   right: 50%;
   transform: translateX(50%);
+  background-color: var(--body-background);
+}
+
+.swal-title,
+.swal-text {
+  color: var(--text-color);
+}
+
+.swal-icon--success:after, 
+.swal-icon--success:before,
+.swal-icon--success__hide-corners {
+  background-color: var(--body-background);
 }
 
 .swal-overlay--show-modal .swal-modal {
