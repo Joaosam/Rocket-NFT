@@ -330,12 +330,14 @@
               <div class="input">
                 <input
                   required
+                  onkeydown="verifyValueInput()"
+                  autocomplete="off"
                   type="email"
                   name="email"
                   id="email"
                   placeholder="ntf@rocketseat.com.br"
                 />
-                <button onclick="sendInput()">
+                <button id="buttonInput" disabled onclick="sendInput()">
                   <strong>Enviar</strong>
                 </button>
               </div>
