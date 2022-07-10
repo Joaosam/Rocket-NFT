@@ -16,7 +16,6 @@ function verifyValueInput() {
   let button = document.getElementById('buttonInput')
 
   if (valueInput) {
-    console.log('entrou')
     button.disabled = false
     button.classList.add('hover')
   }
